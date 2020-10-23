@@ -8,8 +8,8 @@ public class Demo{
       new int[]{1,2,3,4,5},
       new int[]{6,7,8},
       new int[]{4,1,0,12,33,13,53}};
-    System.out.println(arrDeepToString(create2DArray(3,3,6)));
-    System.out.println(arrDeepToString(create2DArrayRandomized(3,3,6)));
+    System.out.println(arrayDeepToString(create2DArray(3,3,6)));
+    System.out.println(arrayDeepToString(create2DArrayRandomized(3,3,6)));
   }
 
   public static void printLoop(int n){
