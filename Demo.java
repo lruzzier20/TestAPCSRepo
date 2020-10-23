@@ -33,7 +33,7 @@ public class Demo{
     return sentence;
   }
 
-  public static String arrDeepToString(int[][] arr){
+  public static String arrayDeepToString(int[][] arr){
     String sentence = "{";
     for(int i=0;i<arr.length;i++){
       sentence+="{";
